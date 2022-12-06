@@ -51,25 +51,25 @@ Docker client -> Docker daemon -> local image storage
 ###### docker vs vm :-
 - vm:
 
-![d2](d1.png)
+![d2](./img/d1.png)
 	- very  resource Hungary
 
 - container:
 
-![d3](d3.png)
+![d3](./img/d3.png)
 
 - not that much resource Hungary
 
 - A **hypervisor**, also known as a virtual machine monitor or VMM, is software that creates and runs virtual machines (VMs). A hypervisor allows one host computer to support multiple guest VMs by virtually sharing its resources, such as memory and processing.
 
-![hyperv](Hypervisors-stackscale.jpg)
+![hyperv](./img/Hypervisors-stackscale.jpg)
 
 
 #### docker images :-
 - we can tell it is like snapshot at any given time
 
 
-![d4](d4.png)
+![d4](./img/d4.png)
 
 [busyBox](https://hub.docker.com/_/busybox)
 
@@ -99,7 +99,7 @@ docker ps --all
 
 PS = process status
 
-![](d5.png)
+![](./img/d5.png)
 
 - default command : execute when we start the container.
 
@@ -150,7 +150,7 @@ docker stop id
 docker kill id
 ```
 
-![](d6.png)
+![](./img/d6.png)
 
 ##### how to get into container
 
@@ -172,7 +172,7 @@ docker exex -it containerid bash
 
 ##### custom docker image:
 
-![seven](d7.png)
+![seven](./img/d7.png)
 
 - docker build .
 - (.) in current dir Dockerfile are there. we can replace . with filename
@@ -411,7 +411,7 @@ docker volume inspect todo-db
 
 **bind mounts**
 
-![eleven](d11.png)
+![eleven](./img/d11.png)
 
 - to run compose file
 
